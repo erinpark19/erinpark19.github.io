@@ -1,0 +1,26 @@
+img {
+    display: block;
+    max-width: 100%;
+    padding: 2rem;
+    border: border-width border-style border-color;
+    box-sizing: border-box;
+}
+main {
+    background-color: bisque;
+}
+body {
+    max-width: 800px;
+    margin: auto;
+}
+nav{
+    padding: 1rem;
+    border-right: 1px dashed darkmagenta;
+    border-bottom: 1px dashed darkmagenta;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5rem;
+
+    width: 300px;
+    position: fixed;
+    margin: 0;
+}
