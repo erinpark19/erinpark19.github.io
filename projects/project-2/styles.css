@@ -1,0 +1,73 @@
+/* Add your CSS styles here */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  div {
+    position: relative;
+  }
+  
+  u {
+    display: inline-block;
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    border: 1px solid black;
+  }
+  
+  span {
+    position: relative;
+    top: -5px; /* Adjust as needed */
+  }
+  
+  .m_oval,
+  .m_rect {
+    position: relative;
+  }
+  
+  .m_button {
+    width: 50px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    background-color: blue; /* Adjust as needed */
+  }
+  
+  .m_OFF {
+    position: relative;
+    top: -10px; /* Adjust as needed */
+  }
+  
+  .m_OFF u {
+    display: inline-block;
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    border: 1px solid black;
+  }
+  
+  .m_OFF span {
+    position: relative;
+    top: -5px; /* Adjust as needed */
+  }
+  
+  .m_OFF u,
+  .m_OFF span {
+    margin-right: 5px;
+  }
+  
+  .m_oval {
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .m_rect {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .m_oval,
+  .m_rect {
+    background-color: black;
+  }
+  
+}
