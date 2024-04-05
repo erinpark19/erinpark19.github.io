@@ -1,4 +1,4 @@
-/* Add your CSS styles here */
+
 body {
     margin: 0;
     padding: 0;
@@ -11,14 +11,14 @@ body {
   
   u {
     display: inline-block;
-    width: 20px; /* Adjust as needed */
-    height: 20px; /* Adjust as needed */
+    width: 20px; 
+    height: 20px; 
     border: 1px solid black;
   }
   
   span {
     position: relative;
-    top: -5px; /* Adjust as needed */
+    top: -5px; 
   }
   
   .m_oval,
@@ -27,26 +27,26 @@ body {
   }
   
   .m_button {
-    width: 50px; /* Adjust as needed */
-    height: 20px; /* Adjust as needed */
-    background-color: blue; /* Adjust as needed */
+    width: 50px; 
+    height: 20px; 
+    background-color: blue; 
   }
   
   .m_OFF {
     position: relative;
-    top: -10px; /* Adjust as needed */
+    top: -10px; 
   }
   
   .m_OFF u {
     display: inline-block;
-    width: 20px; /* Adjust as needed */
-    height: 20px; /* Adjust as needed */
+    width: 20px; 
+    height: 20px; 
     border: 1px solid black;
   }
   
   .m_OFF span {
     position: relative;
-    top: -5px; /* Adjust as needed */
+    top: -5px; 
   }
   
   .m_OFF u,
@@ -70,4 +70,3 @@ body {
     background-color: black;
   }
   
-}
