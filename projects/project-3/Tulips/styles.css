@@ -9,14 +9,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #e291c0; /* Black background */
+    background-color: #e291c0; 
   }
   
   .glowing-text {
     position: absolute;
-    color: #cc599f; /* White text color */
+    color: #cc599f; 
     font-size: 100px;
-    animation: float 5s infinite ease-in-out alternate, glow 1s infinite alternate; /* Animations */
+    animation: float 5s infinite ease-in-out alternate, glow 1s infinite alternate; 
   }
   
   @keyframes float {
@@ -33,13 +33,13 @@ body {
   
   @keyframes glow {
     0% {
-      text-shadow: 0 0 10px #fff; /* White glow */
+      text-shadow: 0 0 10px #fff; 
     }
     50% {
-      text-shadow: 0 0 70px #fff; /* Increase glow */
+      text-shadow: 0 0 70px #fff; 
     }
     100% {
-      text-shadow: 0 0 10px #fff; /* Back to original glow */
+      text-shadow: 0 0 10px #fff; 
     }
   }
   
