@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'Absans';
+    src: url('fonts/Absans-Regular.woff2');
+}
+
+body {
+    background-color: rgb(255, 225, 205);
+    margin: auto;
+    font-family: 'Absans', sans-serif;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+main {
+    max-width: 100%;
+    margin-left: 320px;
+}
