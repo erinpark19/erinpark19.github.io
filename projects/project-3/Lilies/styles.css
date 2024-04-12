@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f3dbcf; 
+  }
+  
+  .blinking-text {
+    position: absolute;
+    color: #b6b4c2; 
+    font-size: 50px;
+    animation: blink 1s infinite alternate;
+  }
+  
+  @keyframes blink {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .blinking-text:nth-child(1) {
+    top: 20%;
+    left: 20%;
+  }
+  
+  .blinking-text:nth-child(2) {
+    top: 50%;
+    left: 70%;
+  }
+  
+  .blinking-text:nth-child(3) {
+    top: 80%;
+    left: 30%;
+  }
+  
+  .blinking-text:nth-child(4) {
+    top: 40%;
+    left: 60%;
+  }
+  
