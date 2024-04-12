@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #eecb75; 
+    overflow: hidden; 
+  }
+  
+  .floating-text {
+    position: absolute;
+    color: #3F4D34; 
+    font-size: 200px;
+    animation: float 5s infinite alternate, slide 3s infinite alternate; 
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  
+  .slide-in {
+    animation-delay: 1s; 
+  }
+  
+  .floating-text:nth-child(1) {
+    top: 20%;
+    left: -100%;
+  }
+  
+  .floating-text:nth-child(2) {
+    top: 40%;
+    left: -100%;
+  }
+  
+  .floating-text:nth-child(3) {
+    top: 60%;
+    left: -100%;
+  }
+  
+  .floating-text:nth-child(4) {
+    top: 80%;
+    left: -100%;
+  }
+  
